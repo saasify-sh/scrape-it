@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "@types/node": "^12.6.9"
+  },
+  "dependencies": {
+    "scrape-it": "^5.2.0"
   }
 }

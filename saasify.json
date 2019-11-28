@@ -1,0 +1,8 @@
+{
+  "name": "scrape-it",
+  "services": [
+    {
+      "src": "index.ts"
+    }
+  ]
+}

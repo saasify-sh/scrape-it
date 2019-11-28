@@ -1,0 +1,15 @@
+{
+  "name": "scrape-it",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A scraper for humans",
+  "author": "IonicaBizau",
+  "license": "MIT",
+  "repository": "IonicaBizau/scrape-it",
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.9"
+  }
+}

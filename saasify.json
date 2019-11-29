@@ -2,7 +2,28 @@
   "name": "scrape-it",
   "services": [
     {
-      "src": "index.ts"
+      "src": "index.ts",
+      "examples": [
+        {
+          "name": "Scrape a URL",
+          "description": "Scrape Hacker News",
+          "input": {
+            "url": "https://news.ycombinator.com",
+            "opts": {
+              "posts": {
+                "listItem": ".athing",
+                "data": {
+                  "title": ".storylink",
+                  "href": {
+                    "selector": ".storylink",
+                    "attr": "href"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

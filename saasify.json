@@ -41,7 +41,7 @@
     "heading": "**A web scraping API for humans**",
     "subheading": "A hassle-free API that lets you scrape web pages with zero dependencies. Try free, then 1¢ per 100 scrapes.",
     "repo": "https://github.com/saasify-sh/scrape-it",
-    "logo": "./media/logo.png",
+    "logo": "./media/logo.svg",
     "favicon": "./media/favicon.ico",
     "theme": {
       "name": "waves",

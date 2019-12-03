@@ -2,7 +2,7 @@
   "name": "scrape-it",
   "services": [
     {
-      "src": "index.ts",
+      "src": "scrape.ts",
       "examples": [
         {
           "name": "Scrape a URL",

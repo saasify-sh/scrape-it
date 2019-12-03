@@ -6,8 +6,8 @@ import scrapeIt, { ScrapeOptions } from 'scrape-it'
  * @param url - Link to URL to scrape.
  * @param opts - Scraping options as described in the [scrape-it readme](https://github.com/IonicaBizau/scrape-it#documentation)
  */
-export default async (url: string, opts: ScrapeOptions): Promise<object> => {
-  const { data } = await scrapeIt(url, opts)
+export default async (url: string, opts: object): Promise<object> => {
+  const { data } = await scrapeIt(url, opts as ScrapeOptions)
 
   return data
 }

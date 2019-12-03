@@ -25,5 +25,30 @@
         }
       ]
     }
-  ]
+  ],
+  "amountPerBase": 99,
+  "amountPerRequest": 0.01,
+  "amountPerCompute": 0,
+  "amountPerBandwidth": 0,
+  "noAuthRateLimit": {
+    "requests": true,
+    "requestsInterval": 3600,
+    "requestsMaxPerInterval": 10
+  },
+  "saas": {
+    "name": "scrape-it",
+    "heading": "**A web scraping API for humans**",
+    "subheading": "A hassle-free API that lets you scrape web pages with zero dependencies. Try free, then 1¢ per 100 scrapes.",
+    "repo": "https://github.com/saasify-sh/scrape-it",
+    "logo": "./media/logo.png",
+    "favicon": "./media/favicon.ico",
+    "theme": {
+      "name": "waves",
+      "backgroundImage": "https://images.unsplash.com/photo-1544207916-df3b3a131e35?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      "wave": false,
+      "codeBlockDark": true,
+      "gradientDark": true,
+      "color": "#784C96"
+    }
+  }
 }

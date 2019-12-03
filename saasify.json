@@ -26,6 +26,7 @@
       ]
     }
   ],
+  "alias": "scrape-it",
   "amountPerBase": 99,
   "amountPerRequest": 0.01,
   "amountPerCompute": 0,
